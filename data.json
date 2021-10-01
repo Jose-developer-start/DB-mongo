@@ -1,45 +1,46 @@
 
-[
+var datos = [
     {
-        "factura":{"num_factura":"f0001","fecha_emision":"2021-01-20","cliente":{"cod_cliente":"00001","nombre":"Jose","apellido":"Valencia","municipio":"San salvador","telefono":"12345678"},"cantidad":"2","producto":{"cod_producto":"pr008","nombre_pro":"Microfono inalambrico","descripcion":"Microfono inalambrico señal 2.4 GHz","precio_venta":"125"},"IVA":"0.05","total":"262.5"}
+        "num_factura":"f0001","fecha_emision":"2021-01-20","cliente":{"cod_cliente":"00001","nombre":"Jose","apellido":"Valencia","municipio":"San salvador","telefono":"12345678"},"cantidad":"2","producto":{"cod_producto":"pr008","nombre_pro":"Microfono inalambrico","descripcion":"Microfono inalambrico señal 2.4 GHz","precio_venta":"125"},"IVA":"0.05","total":"262.5"
     },
     {
-        "factura":{"num_factura":"f0002","fecha_emision":"2021-01-22","cliente":{"cod_cliente":"00002","nombre":"Marcela","apellido":"Espinoza","municipio":"Santa tecla","telefono":"67983421"},"cantidad":"1","producto":{"cod_producto":"pr007","nombre_pro":"Memoria USB","descripcion":"Memoria usb de 32 Gb","precio_venta":"5"},"IVA":"0","total":"5"}
+        "num_factura":"f0002","fecha_emision":"2021-01-22","cliente":{"cod_cliente":"00002","nombre":"Marcela","apellido":"Espinoza","municipio":"Santa tecla","telefono":"67983421"},"cantidad":"1","producto":{"cod_producto":"pr007","nombre_pro":"Memoria USB","descripcion":"Memoria usb de 32 Gb","precio_venta":"5"},"IVA":"0","total":"5"
     },
     {
-        "factura":{"num_factura":"f0003","fecha_emision":"2021-01-25","cliente":{"cod_cliente":"00003","nombre":"Alberto","apellido":"Sanchez","municipio":"San salvador","telefono":"91238765"},"cantidad":"1","producto":{"cod_producto":"pr001","nombre_pro":"Laptop HP","descripcion":"Laptop hp core i5, 8 GB de memoria ram, 1 TB de HDD","precio_venta":"525"},"IVA":"0.1","total":"577.5"}
+        "num_factura":"f0003","fecha_emision":"2021-01-25","cliente":{"cod_cliente":"00003","nombre":"Alberto","apellido":"Sanchez","municipio":"San salvador","telefono":"91238765"},"cantidad":"1","producto":{"cod_producto":"pr001","nombre_pro":"Laptop HP","descripcion":"Laptop hp core i5, 8 GB de memoria ram, 1 TB de HDD","precio_venta":"525"},"IVA":"0.1","total":"577.5"
     },
     {
-        "factura":{"num_factura":"f0004","fecha_emision":"2021-02-02","cliente":{"cod_cliente":"00004","nombre":"Magdalena","apellido":"Cordova","municipio":"Santa ana","telefono":"98345677"},"cantidad":"4","producto":{"cod_producto":"pr002","nombre_pro":"Celular Samsung","descripcion":"Celular samsung modelo a51, posee 6 Gb de memoria ram","precio_venta":"200"},"IVA":"0","total":"800"}
+        "num_factura":"f0004","fecha_emision":"2021-02-02","cliente":{"cod_cliente":"00004","nombre":"Magdalena","apellido":"Cordova","municipio":"Santa ana","telefono":"98345677"},"cantidad":"4","producto":{"cod_producto":"pr002","nombre_pro":"Celular Samsung","descripcion":"Celular samsung modelo a51, posee 6 Gb de memoria ram","precio_venta":"200"},"IVA":"0","total":"800"
     },
     {
-        "factura":{"num_factura":"f0005","fecha_emision":"2021-02-10","cliente":{"cliente":"00005","nombre":"Pedro","apellido":"Perdomo","municipio":"Santa tecla","telefono":"98789123"},"cantidad":"5","producto":{"cod_producto":"pr004","nombre_pro":"Nintendo PS4","descripcion":"Nintendo ps4 posee HDD de 50 Gb","precio_venta":"350"},"IVA":"0.06","total":"927.5"}
+        "num_factura":"f0005","fecha_emision":"2021-02-10","cliente":{"cliente":"00005","nombre":"Pedro","apellido":"Perdomo","municipio":"Santa tecla","telefono":"98789123"},"cantidad":"5","producto":{"cod_producto":"pr004","nombre_pro":"Nintendo PS4","descripcion":"Nintendo ps4 posee HDD de 50 Gb","precio_venta":"350"},"IVA":"0.06","total":"927.5"
     },
     {
-        "factura":{"num_factura":"f0006","fecha_emision":"2021-03-26","cliente":{"cod_cliente":"00006","nombre":"Gerbert","apellido":"Martinez","municipio":"Santa tecla","telefono":"91238765"},"cantidad":"3","producto":{"cod_producto":"pr006","nombre_pro":"Camara canon","descripcion":"Camara canon t5 excelente resolucion de video","precio_venta":"550"},"IVA":"0.2","total":"1980"}
+        "num_factura":"f0006","fecha_emision":"2021-03-26","cliente":{"cod_cliente":"00006","nombre":"Gerbert","apellido":"Martinez","municipio":"Santa tecla","telefono":"91238765"},"cantidad":"3","producto":{"cod_producto":"pr006","nombre_pro":"Camara canon","descripcion":"Camara canon t5 excelente resolucion de video","precio_venta":"550"},"IVA":"0.2","total":"1980"
     },
     {
-        "factura":{"num_factura":"f0007","fecha_emision":"2021-03-18","cliente":{"cod_cliente":"00007","nombre":"Fernanda","apellido":"Gutierrez","municipio":"San salvador","telefono":"98443112"},"cantidad":"9","producto":{"cod_producto":"pr007","nombre_pro":"Memoria USB","descripcion":"Memoria usb de 32 Gb","precio_venta":"5"},"IVA":"0.01","total":"45.45"}
+        "num_factura":"f0007","fecha_emision":"2021-03-18","cliente":{"cod_cliente":"00007","nombre":"Fernanda","apellido":"Gutierrez","municipio":"San salvador","telefono":"98443112"},"cantidad":"9","producto":{"cod_producto":"pr007","nombre_pro":"Memoria USB","descripcion":"Memoria usb de 32 Gb","precio_venta":"5"},"IVA":"0.01","total":"45.45"
     },
     {
-        "factura":{"num_factura":"f0008","fecha_emision":"2021-04-14","cliente":{"cod_cliente":"00001","nombre":"Jose","apellido":"Valencia","municipio":"San salvador","telefono":"12345678"},"cantidad":"1","producto":{"cod_producto":"pr003","nombre_pro":"Celular Huawei","descripcion":"Celular huawei modelo p30, posee 4 Gb de memoria ram","precio_venta":"225"},"IVA":"0.11","total":"249.75"}
+        "num_factura":"f0008","fecha_emision":"2021-04-14","cliente":{"cod_cliente":"00001","nombre":"Jose","apellido":"Valencia","municipio":"San salvador","telefono":"12345678"},"cantidad":"1","producto":{"cod_producto":"pr003","nombre_pro":"Celular Huawei","descripcion":"Celular huawei modelo p30, posee 4 Gb de memoria ram","precio_venta":"225"},"IVA":"0.11","total":"249.75"
     },
     {
-        "factura":{"num_factura":"f0009","fecha_emision":"2021-04-05","cliente":{"cod_cliente":"00002","nombre":"Marcela","apellido":"Espinoza","municipio":"Santa tecla","telefono":"67983421"},"cantidad":"3","producto":{"cod_producto":"pr004","nombre_pro":"Nintendo PS4","descripcion":"Nintendo ps4 posee HDD de 50 Gb","precio_venta":"350"},"IVA":"0","total":"1050"}
+        "num_factura":"f0009","fecha_emision":"2021-04-05","cliente":{"cod_cliente":"00002","nombre":"Marcela","apellido":"Espinoza","municipio":"Santa tecla","telefono":"67983421"},"cantidad":"3","producto":{"cod_producto":"pr004","nombre_pro":"Nintendo PS4","descripcion":"Nintendo ps4 posee HDD de 50 Gb","precio_venta":"350"},"IVA":"0","total":"1050"
     },
     {
-        "factura":{"num_factura":"f0010","fecha_emision":"2021-05-19","cliente":{"cod_cliente":"00004","nombre":"Magdalena","apellido":"Cordova","municipio":"Santa ana","telefono":"98345677"},"cantidad":"5","producto":{"cod_producto":"pr008","nombre_pro":"Microfono inalambrico","descripcion":"Microfono inalambrico señal 2.4 GHz","precio_venta":"125"},"IVA":"0.15","total":"718.75"}
+        "num_factura":"f0010","fecha_emision":"2021-05-19","cliente":{"cod_cliente":"00004","nombre":"Magdalena","apellido":"Cordova","municipio":"Santa ana","telefono":"98345677"},"cantidad":"5","producto":{"cod_producto":"pr008","nombre_pro":"Microfono inalambrico","descripcion":"Microfono inalambrico señal 2.4 GHz","precio_venta":"125"},"IVA":"0.15","total":"718.75"
     },
     {
-        "factura":{"num_factura":"f0011","fecha_emision":"2021-04-24","cliente":{"cod_cliente":"00006","nombre":"Gerbert","apellido":"Martinez","municipio":"Santa tecla","telefono":"91238765"},"cantidad":"2","producto":{"cod_producto":"pr006","nombre_pro":"Camara canon","descripcion":"Camara canon t5 excelente resolucion de video","precio_venta":"550"},"IVA":"0.09","total":"1166"}
+        "num_factura":"f0011","fecha_emision":"2021-04-24","cliente":{"cod_cliente":"00006","nombre":"Gerbert","apellido":"Martinez","municipio":"Santa tecla","telefono":"91238765"},"cantidad":"2","producto":{"cod_producto":"pr006","nombre_pro":"Camara canon","descripcion":"Camara canon t5 excelente resolucion de video","precio_venta":"550"},"IVA":"0.09","total":"1166"
     },
     {
-        "factura":{"num_factura":"f0012","fecha_emision":"2021-05-28","cliente":{"cod_cliente":"00004","nombre":"Magdalena","apellido":"Cordova","municipio":"Santa ana","telefono":"98345677"},"cantidad":"3","producto":{"cod_producto":"pr004","nombre_pro":"Nintendo PS4","descripcion":"Nintendo ps4 posee HDD de 50 Gb","precio_venta":"350"},"IVA":"0","total":"675"
+        "num_factura":"f0012","fecha_emision":"2021-05-28","cliente":{"cod_cliente":"00004","nombre":"Magdalena","apellido":"Cordova","municipio":"Santa ana","telefono":"98345677"},"cantidad":"3","producto":{"cod_producto":"pr004","nombre_pro":"Nintendo PS4","descripcion":"Nintendo ps4 posee HDD de 50 Gb","precio_venta":"350"},"IVA":"0","total":"675"
     }
     ,
     {
-            "factura":{"num_factura":"f0013","fecha_emision":"2021-07-05","cliente":{"cod_cliente":"00006","nombre":"Gerbert","apellido":"Martinez","municipio":"Santa tecla","telefono":"91238765"},"cantidad":"2","producto":{"cod_producto":"pr006","nombre_pro":"Camara canon","descripcion":"Camara canon t5 excelente resolucion de video","precio_venta":"550"},"IVA":"0.14","total":"1254"}
-            ,
+        "num_factura":"f0013","fecha_emision":"2021-07-05","cliente":{"cod_cliente":"00006","nombre":"Gerbert","apellido":"Martinez","municipio":"Santa tecla","telefono":"91238765"},"cantidad":"2","producto":{"cod_producto":"pr006","nombre_pro":"Camara canon","descripcion":"Camara canon t5 excelente resolucion de video","precio_venta":"550"},"IVA":"0.14","total":"1254"
+    },
     {
-                    "factura":{"num_factura":"f0014","fecha_emision":"2021-07-16","cod_cliente":{"cod_cliente":"00003","nombre":"Alberto","apellido":"Sanchez","municipio":"San salvador","telefono":"91238765"},"cantidad":"1","producto":{"cod_producto":"pr003","nombre_pro":"Celular Huawei","descripcion":"Celular huawei modelo p30, posee 4 Gb de memoria ram","precio_venta":"225"},"IVA":"0.03","total":"231.75"}
+        "num_factura":"f0014","fecha_emision":"2021-07-16","cod_cliente":{"cod_cliente":"00003","nombre":"Alberto","apellido":"Sanchez","municipio":"San salvador","telefono":"91238765"},"cantidad":"1","producto":{"cod_producto":"pr003","nombre_pro":"Celular Huawei","descripcion":"Celular huawei modelo p30, posee 4 Gb de memoria ram","precio_venta":"225"},"IVA":"0.03","total":"231.75"
+    }
 ]
