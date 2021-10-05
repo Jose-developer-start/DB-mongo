@@ -1,5 +1,5 @@
 
-var datos = [
+[
     {
         "num_factura":"f0001","fecha_emision":"2021-01-20","cliente":{"cod_cliente":"00001","nombre":"Jose","apellido":"Valencia","municipio":"San salvador","telefono":"12345678"},"cantidad":"2","producto":{"cod_producto":"pr008","nombre_pro":"Microfono inalambrico","descripcion":"Microfono inalambrico señal 2.4 GHz","precio_venta":"125"},"IVA":"0.05","total":"262.5"
     },

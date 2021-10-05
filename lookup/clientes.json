@@ -1,0 +1,30 @@
+[
+    {"_id": 1,"cod_cliente":"00001","nombre":"Jose","apellido":"Valencia","municipio":"San salvador","telefono":"12345678"},
+    {"_id": 2,"cod_cliente":"00002","nombre":"Marcela","apellido":"Espinoza","municipio":"Santa tecla","telefono":"67983421"},
+    {"_id": 3,"cod_cliente":"00003","nombre":"Alberto","apellido":"Sanchez","municipio":"San salvador","telefono":"91238765"},
+    {"_id": 4,"cod_cliente":"00004","nombre":"Magdalena","apellido":"Cordova","municipio":"Santa ana","telefono":"98345677"},
+    {"_id": 5,"cod_cliente":"00005","nombre":"Pedro","apellido":"Perdomo","municipio":"Santa tecla","telefono":"98789123"},
+    {"_id": 6,"cod_cliente":"00006","nombre":"Gerbert","apellido":"Martinez","municipio":"Santa tecla","telefono":"91238765"},
+    {"_id": 7,"cod_cliente":"00007","nombre":"Fernanda","apellido":"Gutierrez","municipio":"San salvador","telefono":"98443112"},
+    
+    {"_id": 8,"cod_cliente":"00008","nombre":"Jose","apellido":"Valencia","municipio":"San salvador","telefono":"12345678"},
+    {"_id": 9,"cod_cliente":"00009","nombre":"Marcela","apellido":"Espinoza","municipio":"Santa tecla","telefono":"67983421"},
+    {"_id": 10,"cod_cliente":"00010","nombre":"Alberto","apellido":"Sanchez","municipio":"San salvador","telefono":"91238765"},
+    {"_id": 11,"cod_cliente":"00011","nombre":"Magdalena","apellido":"Cordova","municipio":"Santa ana","telefono":"98345677"},
+    {"_id": 12,"cod_cliente":"00012","nombre":"Pedro","apellido":"Perdomo","municipio":"Santa tecla","telefono":"98789123"},
+    {"_id": 13,"cod_cliente":"00013","nombre":"Gerbert","apellido":"Martinez","municipio":"Santa tecla","telefono":"91238765"},
+    {"_id": "14","cod_cliente":"00014","nombre":"Fernanda","apellido":"Gutierrez","municipio":"San salvador","telefono":"98443112"},
+
+    {"_id": 15,"cod_cliente":"00015","nombre":"Jose","apellido":"Valencia","municipio":"San salvador","telefono":"12345678"},
+    {"_id": 16,"cod_cliente":"00016","nombre":"Marcela","apellido":"Espinoza","municipio":"Santa tecla","telefono":"67983421"},
+    {"_id": 17,"cod_cliente":"00017","nombre":"Alberto","apellido":"Sanchez","municipio":"San salvador","telefono":"91238765"},
+    {"_id": 18,"cod_cliente":"00018","nombre":"Magdalena","apellido":"Cordova","municipio":"Santa ana","telefono":"98345677"},
+    {"_id": 19,"cod_cliente":"00019","nombre":"Pedro","apellido":"Perdomo","municipio":"Santa tecla","telefono":"98789123"},
+    {"_id": 20,"cod_cliente":"00020","nombre":"Gerbert","apellido":"Martinez","municipio":"Santa tecla","telefono":"91238765"},
+    {"_id": 21,"cod_cliente":"00021","nombre":"Fernanda","apellido":"Gutierrez","municipio":"San salvador","telefono":"98443112"},
+
+    {"_id": 22,"cod_cliente":"00022","nombre":"Fernanda","apellido":"Gutierrez","municipio":"San salvador","telefono":"98443112"},
+    {"_id": 23,"cod_cliente":"00023","nombre":"Fernanda","apellido":"Gutierrez","municipio":"San salvador","telefono":"98443112"},
+    {"_id": 24,"cod_cliente":"00024","nombre":"Fernanda","apellido":"Gutierrez","municipio":"San salvador","telefono":"98443112"},
+    {"_id": 25,"cod_cliente":"00025","nombre":"Fernanda","apellido":"Gutierrez","municipio":"San salvador","telefono":"98443112"}
+]
