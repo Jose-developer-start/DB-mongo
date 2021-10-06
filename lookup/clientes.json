@@ -1,10 +1,10 @@
 [
-    {"_id": 1,"cod_cliente":"00001","nombre":"Jose","apellido":"Valencia","municipio":"San salvador","telefono":"12345678"},
-    {"_id": 2,"cod_cliente":"00002","nombre":"Marcela","apellido":"Espinoza","municipio":"Santa tecla","telefono":"67983421"},
-    {"_id": 3,"cod_cliente":"00003","nombre":"Alberto","apellido":"Sanchez","municipio":"San salvador","telefono":"91238765"},
-    {"_id": 4,"cod_cliente":"00004","nombre":"Magdalena","apellido":"Cordova","municipio":"Santa ana","telefono":"98345677"},
+    {"_id": 1,"cod_cliente":"00001","nombre":"Jose","apellido":"Valencia","municipio":"San salvador","telefono":"12345678","factura": ["f0001","f0040","f0065","f0090"]},
+    {"_id": 2,"cod_cliente":"00002","nombre":"Marcela","apellido":"Espinoza","municipio":"Santa tecla","telefono":"67983421","factura":["f0002","f0041","f0066","f0091"]},
+    {"_id": 3,"cod_cliente":"00003","nombre":"Alberto","apellido":"Sanchez","municipio":"San salvador","telefono":"91238765","factura":["f0003","f0042","f0067","f0092"]},
+    {"_id": 4,"cod_cliente":"00004","nombre":"Magdalena","apellido":"Cordova","municipio":"Santa ana","telefono":"98345677","factura": ["f0004","f0043","f0068","f0093"]},
     {"_id": 5,"cod_cliente":"00005","nombre":"Pedro","apellido":"Perdomo","municipio":"Santa tecla","telefono":"98789123"},
-    {"_id": 6,"cod_cliente":"00006","nombre":"Gerbert","apellido":"Martinez","municipio":"Santa tecla","telefono":"91238765"},
+    {"_id": 6,"cod_cliente":"00006","nombre":"Gerbert","apellido":"Martinez","municipio":"Santa tecla","telefono":"91238765","factura": ["f0095","f0070","f0045","f0006"]},
     {"_id": 7,"cod_cliente":"00007","nombre":"Fernanda","apellido":"Gutierrez","municipio":"San salvador","telefono":"98443112"},
     
     {"_id": 8,"cod_cliente":"00008","nombre":"Jose","apellido":"Valencia","municipio":"San salvador","telefono":"12345678"},
