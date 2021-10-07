@@ -111,3 +111,4 @@
     {"_id":100,"num_factura":"f0100","fecha_emision":"2021-01-22","cod_cliente":"00011","cantidad":"1","cod_producto":["pr001","pr010"],"IVA":0,"total":5}
     
 ]
+

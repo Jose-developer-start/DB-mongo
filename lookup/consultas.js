@@ -1,3 +1,4 @@
+//mostrar los productos que tienen las facturas
 db.facturas.aggregate(
     [
         {
@@ -10,3 +11,20 @@ db.facturas.aggregate(
         }
     ]
 )
+
+//Clientes => mostrar todas las facturas
+db.clientes.aggregate(
+    [
+        {
+            $lookup: {
+                from: "facturas",
+                localField: "cod_cliente",
+                foreignField: "cod_cliente",
+                as : "facturas"
+            }
+        },
+        {
+            $limit: 1
+        }
+    ]
+).pretty()
