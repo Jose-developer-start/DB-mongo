@@ -28,3 +28,5 @@ db.clientes.aggregate(
         }
     ]
 ).pretty()
+
+db.clientes.aggregate([{$match: {cod_cliente:{$in: ["00016","00022","00025"]}}},{$lookup: {from:"facturas",localField: "cod_cliente",foreignField:"cod_cliente",as:"factura"}},{$unwind: "$factura"},{$lookup: {from: "productos",localField: "cod_producto",foreignField:"factura.cod_producto",as:"producto"}},{$unwind: "$producto"},{$limit: 1}]).pretty()
